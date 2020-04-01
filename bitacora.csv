@@ -1,0 +1,6 @@
+/home/johnny/projects/sensor-network-iot/dev/sensor-network-iot/endDevice/esp8266-07s/libs/mos-protobuf
+date,command,observations
+Wed 01 Apr 2020 12:47:08 PM -05,git clone https://github.com/mongoose-os-libs/empty mos-protobuf,iniciar libreria en c para protobuf
+Wed 01 Apr 2020 12:47:43 PM -05,rm -rf .git/,removiendo git base para crearun git init
+Wed 01 Apr 2020 12:48:51 PM -05,git init,inicio de proyecto git
+Wed 01 Apr 2020 12:50:58 PM -05,git remote add origin https://github.com/johnnycubides/mos-protobuf,indicando localizacion del repositorio remoto
