@@ -1,5 +1,5 @@
 #include "mgos.h"
 
-bool mgos_empty_init(void) {
+bool mgos_protobuf_init(void) {
   return true;
 }

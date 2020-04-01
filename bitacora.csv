@@ -1,6 +1,12 @@
 /home/johnny/projects/sensor-network-iot/dev/sensor-network-iot/endDevice/esp8266-07s/libs/mos-protobuf
 date,command,observations
-Wed 01 Apr 2020 12:47:08 PM -05,git clone https://github.com/mongoose-os-libs/empty mos-protobuf,iniciar libreria en c para protobuf
+Wed 01 Apr 2020 12:47:08 PM -05,git clone https://github.com/mongoose-os-libs/empty protobuf,iniciar libreria en c para protobuf
 Wed 01 Apr 2020 12:47:43 PM -05,rm -rf .git/,removiendo git base para crearun git init
 Wed 01 Apr 2020 12:48:51 PM -05,git init,inicio de proyecto git
-Wed 01 Apr 2020 12:50:58 PM -05,git remote add origin https://github.com/johnnycubides/mos-protobuf,indicando localizacion del repositorio remoto
+Wed 01 Apr 2020 12:50:58 PM -05,git remote add origin https://github.com/johnnycubides/protobuf,indicando localizacion del repositorio remoto
+Wed 01 Apr 2020 12:54:52 PM -05,git push origin master,haciendo un add y commit segur con el push
+Wed 01 Apr 2020 12:58:38 PM -05,cp /opt/nanopb-0.4.1-linux-x86/*.c src/,agregando librerias al src
+Wed 01 Apr 2020 12:59:22 PM -05,mkdir include,crear directorio para los headers
+Wed 01 Apr 2020 12:59:38 PM -05,cp /opt/nanopb-0.4.1-linux-x86/*.h include/,copiando los headers
+Wed 01 Apr 2020 01:04:46 PM -05,cat src/mgos_protobuf_c.c,se debe mantener la regla con respecto al nombre de la libreria protobuf y un init como se evidencia aca
+Wed 01 Apr 2020 01:13:35 PM -05,cat include/mgos_protobuf.h,crear este archivo que contendra los demas requeridos
