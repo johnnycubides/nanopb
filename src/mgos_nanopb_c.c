@@ -1,5 +1,5 @@
 #include "mgos.h"
 
-bool mgos_protobuf_init(void) {
+bool mgos_nanopb_init(void) {
   return true;
 }
